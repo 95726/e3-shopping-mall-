@@ -6,11 +6,4 @@ spring:
     name: cloud-config-center
   cloud:
     config:
-      server:
-        git:
-          uri: https://github.com/95726/e3-shopping-mall-.git #github仓库上面的git仓库名字
-          ##搜索目录
-          search-paths:
-            - e3-shopping-mall-
-      #读取分支
-      label: master
+      info: https://github.com/95726/e3-shopping-mall-.git #github仓库上面的git仓库名字
